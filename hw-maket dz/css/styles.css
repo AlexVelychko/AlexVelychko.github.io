@@ -1,0 +1,148 @@
+import url("normalize.css");
+body {
+  background-color: #e4e7e5;
+  font-family: Arial, sans-serif;
+  color: #85898f;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul, ol {
+  margin: 0;
+}
+li {
+  line-height: 1.5;  font-size: 13px;
+}
+.top-line {
+  background: linear-gradient(to bottom, #323f41 20%, #2e3639 45%, #292e36 80%);
+}
+.top-container {
+  height: 70px;
+    /* position: relative; */
+}
+.logo-block {
+  width: 50%;
+  display: inline-block;
+  margin-right: -4px;
+  /* position: absolute; */
+  /* left: 0; */
+}
+.clear {
+  clear: both;
+}
+h1, h2, h3, h4, p, input, select, option {
+  color: #a5adb8;
+}
+a {
+ color: #95161f;
+}
+.heading span {
+  color: #ae4b5d;
+}
+.logo-block h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.logo-block p {
+  margin-top: 0;
+}
+.logo-block h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.logo-block p {
+  color: #656f7a;
+  font-size: 12px;
+}
+
+.search-block {
+  display: inline-block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: 0;
+  /* position: absolute; */
+  /* right: 0; */
+}
+.search-form {
+  width: 200px;
+  margin-left: auto;
+}
+input.submit {
+  background-color: #ae4b5d;
+  width: 36px;
+  height: 34px;
+  border-radius: 5px;
+  border: none;
+  background-image: url("../img/search.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+input:focus, select:focus, option:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+input.search {
+  background-color: #24272d;
+  -webkit-box-shadow: inset 3px 11px 20px 0px #1c1e23;
+  -moz-box-shadow: inset 3px 11px 20px 0px #1c1e23;
+  box-shadow: inset 3px 11px 20px 0px #1c1e23;
+  border: 1px solid #875f66;
+  border-radius: 5px;
+  padding: 8px 0 8px 5px;
+  display: inline-block;
+  vertical-align: top;
+  color: #5b636e;
+  font-size: 14px;
+  font-weight: 100;
+}
+input.search {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.slider {
+  position: relative;
+  line-height: 0;
+}
+.slider img {
+  width: 100%;
+}
+.slider-text {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 40px;
+}
+.top-part, .bottom-part {
+  margin-bottom: 20px;
+  line-height: 1.15;
+}
+.top-part h2 {
+  margin: 0;
+}
+.berry h2 {
+  position: relative;
+  margin-top: 100px
+}
+.top-part p {
+  font-size: 17px;
+  color: #282d33;
+  margin: 0;
+}
+.bottom-part h4 {
+ margin: 0;
+}
+.bottom-part p {
+  color: #d9dcdf;
+  font-size: 13px;
+  font-weight: normal;
+}
+.slider-text h4 {
+  margin-bottom: 5px;
+}
