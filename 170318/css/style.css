@@ -8,15 +8,14 @@ body {
 .main-container {
   width: 1200px;
   height: 300px;
-  background-color: red;
   margin: 20px auto 0 auto;
   box-shadow: 0 10px 15px 3px grey;
 }
-div.header-top {
-  background-color: #6b8e23;
+.header-top {
+  background-color: #31373b;
 }
 .logo {
-  /* display: inline-block;  */
+  /* display: inline-block; */
   width: 20%;
   /* margin-right: -4px; */
   /* vertical-align: middle; */
@@ -27,11 +26,14 @@ div.header-top {
   margin-left: 20px;
 }
 .top-menu {
+  float: left;
   /* display: inline-block; */
   width: 50%;
   /* margin-right: -4px; */
   /* vertical-align: middle; */
-  float: left;
+}
+.clear {
+  clear: both;
 }
 .top-menu ul {
   list-style: none;
@@ -47,27 +49,23 @@ div.header-top {
   padding: 1px 10px;
   border-right: 1px solid #fff;
 }
-.top-menu ul li a.last-link {
+.top-menu li:last-child a {
   border: none;
 }
- .reklam {
+ .adv-section {
   width: 30%;
   height: 20px;
-  /* ?display: inline-block */
   background-color: #fff;
-  /* vertical-align: middle; */
-  /* margin-left: -4px; */
   float: right;
 }
 .news-container {
   width: 100%;
   height: 30px;
   background-color: #fff;
-  border: 1px solid #000;
 }
 .bracking-news {
   position: relative;
-  width: 20%;
+  width: 10%;
   display: inline-block;
   vertical-align: middle;
   height: 100%;
@@ -84,68 +82,116 @@ div.header-top {
   transform: rotate(45deg);
 }
 .news-block {
-  width: 60%;
+  width: 70%;
   display: inline-block;
   vertical-align: middle;
   margin-right: -4px;
+  text-align: center;
 }
 .news-block p {
   display: inline-block;
   vertical-align: middle;
 }
-.right-block {
+.social-block {
   display: inline-block;
   vertical-align: middle;
   width: 20%;
   height: 30px;
+}
+.social-block:before {
+  content:'';
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.social-block ul {
+  list-style: none;
+  vertical-align: middle;
+  display: inline-block;
+}
+.social-block ul li {
+  display: inline-block;
+}
+.content p {
+  padding: 20px;
+}
+.content p::selection {
+  color: red;
+  background-color: #fff;
+}
+/* Peseudo elements's page */
+ p.hover-example {
+   width: 300px;
+   margin-left: 30px;
+   margin-top: 30px;
 
 }
- .right-block ul li {
- width: 30px;
- height: 30px;
- display: inline-block;
-}
-.right-block img {
-  width: 30px;
-  height: 30px;
-}
-/* .button-1 {
-  background-image: url(../img/search.png);
-}
-.button-2 {
-  background-image: url(../img/twitter.png);
-}
-.button-3 {
-  background-image: url(../img/facebook.jpg);
-}
-.button-4 {
-  background-image: url(../img/twitter.png);
+/* p.hover-example:before {
+  content:'1';
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
 } */
-.gray-place {
-  background: linear-gradient(to top, #000, #fff);
-  width: 100%;
-  height: 200px;
+p.hover-example:after {
+  content:'2';
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
 }
-.at-vero {
-  display: inline-block;
+p.hover-example:first-letter {
+  font-size: 35px;
+}
+p.hover-example:first-line {
+  color: yellow;
+}
+p.hover-example::selection {
+  color: red;
+  background-color: black;
+}
+ul.menu-example {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+ul.menu-example li {
+  padding: 10px;
+}
+ul.menu-example li a {
+  font-size: 25px;
+  padding: 10px;
+  text-decoration: none;
+}
+/* ul.menu-example li.first a {
+  font-size: 25px;
+  background-color: yellow;
+} */
+ul.menu-example li:first-child a {
+  font-size: 25px;
+  background-color: red;
+}
+ul.menu-example li:first-child a {
+  font-size: 25px;
+  background-color: red;
+}
+ul.menu-example li:nth-child(2) a {
+  font-size: 25px;
+  background-color: black;
+}
+/* ul.menu-example li:nth-child(even) a {
+  font-size: 25px;
+  background-color: black;
+} */
+/* ul.menu-example li a:hover {
   color: #fff;
-}
-.lorem {
-  display: inline-block;
-  color: #fff;
-}
-.sed-ut  {
-  display: inline-block;
-  color: #fff;
-}
-.nemo-enim  {
-  display: inline-block;
-  color: #fff;
-}
-.at-vero-2 {
-  display: inline-block;
-  color: #fff;
-}
-.clear {
-  clear: both;
-}
+  background-color: blue;
+} */
+/
+/* ul.menu-example li a:visited {
+  color: red;
+  border-bottom: 4px dashed black;
+} */
