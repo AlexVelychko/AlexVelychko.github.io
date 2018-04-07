@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #b6d5e7;
+}
+.main-container {
+  width: 1200px;
+  height: 300px;
+  background-color: red;
+  margin: 20px auto 0 auto;
+  box-shadow: 0 10px 15px 3px grey;
+}
+div.header-top {
+  background-color: #6b8e23;
+}
+.logo {
+  /* display: inline-block;  */
+  width: 20%;
+  /* margin-right: -4px; */
+  /* vertical-align: middle; */
+  float: left;
+}
+.logo img {
+  width: 100px;
+  margin-left: 20px;
+}
+.top-menu {
+  /* display: inline-block; */
+  width: 50%;
+  /* margin-right: -4px; */
+  /* vertical-align: middle; */
+  float: left;
+}
+.top-menu ul {
+  list-style: none;
+}
+.top-menu ul li {
+  display: inline-block;
+}
+.top-menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding: 1px 10px;
+  border-right: 1px solid #fff;
+}
+.top-menu ul li a.last-link {
+  border: none;
+}
+ .reklam {
+  width: 30%;
+  height: 20px;
+  /* ?display: inline-block */
+  background-color: #fff;
+  /* vertical-align: middle; */
+  /* margin-left: -4px; */
+  float: right;
+}
+.news-container {
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.bracking-news {
+  position: relative;
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  background-color: #d91d45;
+  margin-right: -4px;
+}
+.angle {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 10px;
+  right: -5px;
+  background-color: #d91d45;
+  transform: rotate(45deg);
+}
+.news-block {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+.news-block p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.right-block {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+  height: 30px;
+
+}
+ .right-block ul li {
+ width: 30px;
+ height: 30px;
+ display: inline-block;
+}
+.right-block img {
+  width: 30px;
+  height: 30px;
+}
+/* .button-1 {
+  background-image: url(../img/search.png);
+}
+.button-2 {
+  background-image: url(../img/twitter.png);
+}
+.button-3 {
+  background-image: url(../img/facebook.jpg);
+}
+.button-4 {
+  background-image: url(../img/twitter.png);
+} */
+.gray-place {
+  background: linear-gradient(to top, #000, #fff);
+  width: 100%;
+  height: 200px;
+}
+.at-vero {
+  display: inline-block;
+  color: #fff;
+}
+.lorem {
+  display: inline-block;
+  color: #fff;
+}
+.sed-ut  {
+  display: inline-block;
+  color: #fff;
+}
+.nemo-enim  {
+  display: inline-block;
+  color: #fff;
+}
+.at-vero-2 {
+  display: inline-block;
+  color: #fff;
+}
+.clear {
+  clear: both;
+}
