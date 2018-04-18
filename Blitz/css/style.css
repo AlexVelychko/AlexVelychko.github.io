@@ -23,6 +23,7 @@
   width: 33%;
   height: 50px;
   float: left;
+  margin-top: 10px;
 }
 /* .logo-img{ *
   background-image: url(../img/blitz.png);
@@ -61,11 +62,23 @@
 .top-menu li {
   display: inline-block;
 }
-
-
+.top-menu {
+  float: right;
+}
+.top-menu ul li {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: -24px;
 }
 .header-main {
-  background-image: url(img/picture.jpg);
-  width: 600px;
+  background-image: url(../img/jesus.png);
+  margin: 0 auto;
+  width: 993px;
+  height: 535px;
   background-color: #fdfdfd;
+}
+.header-main h5 {
+  color: #fff;
+  vertical-align: middle;
+  margin 0 auto;
 }
