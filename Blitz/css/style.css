@@ -33,7 +33,7 @@
 .logo h2 {
   font-family: 'Cookie', cursive;
   font-size: 42px;
-  color: #7aa884;
+  color: #474747;
 }
 .top-menu ul li span {
   display: block;
@@ -92,8 +92,15 @@
   height: 70px;
   background-color: #404040;
   position: absolute;
+<<<<<<< HEAD
   bottom: 1px;
+=======
+  bottom: 3px;
+>>>>>>> e100e5a54498b496eaee2f15a8bc5b42dee205e5
   left: 0;
+  padding: 17px 0 0 14px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   font-family: 'Pathway Gothic One';
 }
 .fw span:first-child {
@@ -114,4 +121,80 @@
 .under-img {
  width: 1700px;
  height: 70px;
+}
+.lines {
+  position: absolute;
+  right: 15px;
+  bottom: 12px;
+}
+.lines span {
+  display: inline-block;
+  width: 25px;
+  height: 7px;
+  margin-right: 7px;
+  background-color: #fff;
+}
+.lines span:first-child {
+  background-color:#444444;
+}
+.lines span:last-child {
+  margin-right: 7px;
+}
+.under-img {
+  background: #f5f5f5;
+  padding: 20px 13px;
+  position: relative;
+}
+.under-img::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #f5f5f5;
+  left: 50%;
+  top: -12px;
+  transform: rotate(45deg);
+  margin-left: -10px;
+
+}
+.under-img h4 {
+  font-size: 20px;
+  font-family: 'Pathway Gothic One';
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 15px;
+}
+.articles {
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.articles .item {
+  display: inline-block;
+  width: 33.3%;
+  margin-right: -4px;
+}
+.heading {
+  margin-bottom: 30px;
+}
+.heading img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.heading h4 {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Pathway Gothic One';
+  color: #474747;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+.example {
+  width: 100%;
+  height: 30px;
+  background-image: url(../img/shtrih.jpg);
+  /* background-color: red; */
+  background-repeat: repeat-x;
 }
