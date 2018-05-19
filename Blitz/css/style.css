@@ -119,8 +119,8 @@
   margin-left: 17px;
 }
 .under-img {
- width: 1700px;
- height: 70px;
+ width: 916px;
+ margin: 0 auto;
 }
 .lines {
   position: absolute;
@@ -165,7 +165,7 @@
   margin-bottom: 15px;
 }
 .articles {
-  width: 1300px;
+  width: 916px;
   margin: 0 auto;
   margin-top: 70px;
 }
@@ -183,18 +183,41 @@
 }
 .heading h4 {
   display: inline-block;
-  font-size: 26px;
+  font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
   font-family: 'Pathway Gothic One';
   color: #474747;
   vertical-align: middle;
-  margin-left: 30px;
+  margin-left: 10px;
+}
+.more {
+  margin-top: 25px;
+  font-weight: bold;
+  font-family: 'Pathway Gothic One';
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.more:before {
+  content: ">>";
+  margin-right: 5px;;
+}
+.mlw {
+  vertical-align: middle;
+  display: inline-block;
+  width: 33.3%;
+  margin-right: -4px;
 }
 .example {
-  width: 100%;
-  height: 30px;
+  vertical-align: middle;
+  display: inline-block;
   background-image: url(../img/shtrih.jpg);
-  /* background-color: red; */
   background-repeat: repeat-x;
+  margin-right: -4px;
+  height: 30px;
+  width: 33.3%;
+}
+.latest-work {
+  width: 916px;
+  margin: 0 auto;
 }
