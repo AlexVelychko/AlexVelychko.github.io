@@ -99,9 +99,53 @@
 }
 .rot {
   position: absolute;
-  top: 200px;
-  left: 200px;
+  top: 187px;
+  left: 192px;
   z-index: 2;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+  .head:hover .rot {
+  opacity: 0;
+}
+.rot-2 {
+  position: absolute;
+  top: 187px;
+  left: 192px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 1;
+}
+.head:hover .rot-2 {
+  opacity: 1;
+}
+.open-mouth {
+  height: 0px;
+  width: 40px;
+  background-color: hotpink;
+  position: absolute;
+  top: 206px;
+  left: 205px;
+  transition: height 0.5s ease;
+}
+.head:hover .open-mouth {
+  height: 50px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.holos {
+  opacity: 0;
+  font-size: 30px;
+  position: absolute;
+  left: 300px;
+  top: 0;
+  height: 50px;
+  width: 300px;
+  background-color: pink;
+  transition: opacity 0.5s ease;
+}
+.head:hover .holos {
+  opacity: 1;
 }
 .panda {
   background-color: dimgray;
@@ -111,17 +155,56 @@
   width: 160px;
 }
 .lapka-1 {
-  width: 100px;
-  height: 80px;
+  width: 125px;
+  height: 125px;
   background-color: black;
   border-radius: 50%;
+  position: absolute;
+  left: 36px;
+  top: 220px;
 }
 .lapka-2 {
-  width: 100px;
-  height: 80px;
+  width: 125px;
+  height: 125px;
   background-color: black;
   border-radius: 50%;
+  position: absolute;
+  left: 280px;
+  top: 220px;
 }
 .telo {
-
+  width: 350px;
+  height: 150px;
+  background-color: #fff;
+  position: relative;
+  margin: 0 auto;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: 6px solid black;
+  z-index: 0;
+  bottom: 25px;
+}
+.telo:before {
+  content: "";
+  width: 200px;
+  height: 300px;
+  background-image: url(../img/left-noga.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: -65px;
+  bottom: -210px;
+}
+.telo::after {
+  content: "";
+  width: 200px;
+  height: 300px;
+  background-image: url(../img/right-noga.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  position: absolute;
+  right: -70px;
+  bottom: -220px;
+  transform: rotate(-15deg);
 }
