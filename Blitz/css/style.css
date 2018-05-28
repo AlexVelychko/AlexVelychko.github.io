@@ -238,11 +238,33 @@
   margin-right: -4px;
   width: 25%;
   vertical-align: top;
+  padding-bottom: 48px;
 }
 .project h4 {
-
+  font-family: 'Pathway Gothic One';
+  font-weight: bold;
+  font-size: 17px;
 }
 .project p {
   height: 82px;
   overflow: hidden;
+}
+.footer {
+  border-top: 4px solid silver;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+.f1 {
+  color: silver;
+  display: inline-block;
+  vertical-align: middle;
+}
+.f2 {
+  color: silver;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-block {
+  width: 916px;
+  margin: 0 auto;
 }

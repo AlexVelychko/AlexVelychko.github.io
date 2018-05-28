@@ -1,0 +1,67 @@
+.outer {
+  margin: 0 auto;
+  border: 2px #000 solid;
+  width: 300px;
+  height: 300px;
+}
+.inner  {
+  width: 150px;
+  height: 150px;
+  border: 2px red solid;
+}
+.way-1 {
+  line-height: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+.way-2 {
+  position: relative;
+}
+.second {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -75px;
+  margin-left: -75px;
+}
+.way-3 {
+  position: relative;
+}
+.third {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  line-height: 150px;
+  text-align: center;
+}
+.way-4 {
+  display: table;
+  text-align: center;
+}
+.fourth {
+  display: table-cell;
+  vertical-align: middle;
+}
+.way-5::before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fifth {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.way-5 {
+  text-align: center;
+}
+.way-6 {
+  display: flex;
+}
+.sixth {
+  margin: auto;
+  text-align: center;
+  line-height: 150px;
+}
